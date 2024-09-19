@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(12, 40, 40);
+}
+#title{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.dashboard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(238,115,38);
+    background: linear-gradient(90deg, rgba(238,115,38,1) 0%, rgba(255,235,51,1) 100%);
+    border-bottom: 1px solid black;
+    padding: 5px;
+
+}
+.dashboard > article > a{
+    display: block;
+}
+.dashboard > article > a > i{
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.name{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#create{
+    background-color: orange;
+    font-size: 1.9rem;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: block;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+    color: blue;
+}
